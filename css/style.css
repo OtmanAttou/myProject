@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+}
+
+header{
+    background-image: url("../img/girl-scifi-mask-4k-t0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    
+    height: 700px;
+    width: 100%;
+    margin: 0% auto;
+    background-color: brown;
+}
+.container-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0% auto;
+
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    list-style:none;
+
+}
+.a1{
+    color: black;
+    text-decoration: none;
+    
+
+} 
+.a1:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.btn-header,.flex4 ,.flex-items1{
+    display: none;
+
+}
+.btn-li{
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.btn-li:hover:hover{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+@media (max-width:500px) {
+    body{
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+    }
+    .container-header{
+        display: block;
+        align-content: center;
+        width: 100%;
+        margin:0% auto ;
+        height: 100px;
+    }
+    .flex1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:0% auto ;
+        height: 100px;
+    }
+    .flex-items1{
+        display: flex;
+    }
+    .btn-header, .flex4{
+        display: block;
+    } 
+    .flex2, .flex3{
+        display: none;
+    }
+    .flex4{
+        width: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    header span{
+        width: 200px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    .a1{
+        color: white;
+    }
+    .a1:hover{
+        color: red;
+        border-bottom: 3px solid red;
+        height: 80px;
+        background-color: none ;
+        
+    }
+    
+    
+    
+
+    
+    
+}
